@@ -1,0 +1,16 @@
+# Site settings
+title: COMP47250 - Right Move
+description: "Companion blog to the COMP47250 Team software project. This site is designed to present the steps used to
+create the 'Right Move' application in a clear, concise way. All resource's and reference's used to develop the application will also be recorded."
+baseurl: "/jekyll-for-designers" 
+url: "http://jameswillweb.github.io/jekyll-for-designers" 
+tagline: A blog describing the development of the 'Right Move' Application.
+
+# Build settings
+markdown: kramdown
+kramdown:
+    auto_ids: false
+gems: [jekyll-paginate]
+paginate: 4
+paginate_path: '/blog/page:num/'
+permalink: /blog/:title
