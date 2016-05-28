@@ -4,12 +4,11 @@ title:  "Installing Jekyll"
 date:   2016-05-24
 tags: [jekyll, Ruby, Ruby Gems, GitHub]
 ---
-Installing Jekyll was a relatively simple process. First though, there are a number of dependencies and requirements that have
-to be satisfied first, before installing and using Jekyll.
+Installing Jekyll was a relatively simple process.
+There are a number of dependencies and requirements that have to be satisfied first, before we can start installing and using Jekyll.
 
 First, let’s cover what you’ll need to have installed before you can run Jekyll. The [Jekyll installation guide](https://jekyllrb.com/docs/installation/) lists
-all of the requirements
-and has specific steps on how to get Jekyll up and running. It was geared more towards Linux, Unix and Mac OS X installs bit
+all of the requirements and has specific steps on how to get Jekyll up and running. It was geared more towards Linux, Unix and Mac OS X installs but
 has a link, detailing how to run it on Windows - [you can read more about the process here](http://jekyll-windows.juthilo.com/ "jekyll for windows").
 
 [Ruby](https://www.ruby-lang.org "ruby") and [Ruby Gems](https://rubygems.org/ "ruby gems") were the only requirements. To verify versions post installs, type the following at the command line prompt.
