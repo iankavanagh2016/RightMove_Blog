@@ -43,7 +43,7 @@ This will build the site and also launch a local webserver,so that we can previe
 
 ![My First blog]({{site.baseurl}}/images/local_host.jpg)
 
-We have our first generated Jekyll site. We wont go into the specifics on how this blog has been created - the templates used are obtain from the default Jekyll site
+We have our first generated Jekyll site. We wont go into the specifics on how this blog has been created - the templates used, are obtained from the default Jekyll site,
 which was used in conjunction with the [lynda.com](http://www.lynda.com "lynda.com") course *Jekyll for Web Designers*.
 
 Jekyll is a Ruby-based parsing engine that uses [YAML](http://yaml.org/ "YAML"), the [Liquid Templating language](http://liquidmarkup.org/ "liquid"), and [Markdown](http://daringfireball.net/projects/markdown/ "markdown") to assemble content into HTML.
