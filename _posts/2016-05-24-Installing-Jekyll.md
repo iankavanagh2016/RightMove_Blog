@@ -36,7 +36,7 @@ C:\jekyll new blog
 From C:\blog type the following into the command line prompt.
 
 {% highlight bash %}
-C:\jekyll serve
+C:\blog>jekyll serve
 {% endhighlight %}
 
 This will build the site and also launch a local webserver,so that we can preview it locally. Open up a browser and navigate to localhost:4000

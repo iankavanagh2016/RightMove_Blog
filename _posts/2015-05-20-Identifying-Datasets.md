@@ -9,7 +9,7 @@ One of the first tasks that needs to completed is the identification of potentia
 
 Property prices can be obtained from either the [Residential Property Price Register](https://www.propertypriceregister.ie/website/npsra/pprweb.nsf/page/ppr-home-en)
 or [Property Price Register Ireland](http://propertypriceregisterireland.com/). We initially looked at  various `Web Scraping` tools, such as
-`Beautiful Soup`, to obtain the information, but then identified that thesame information could be readily pulled using a simple urllib request.
+`Beautiful Soup`, to obtain the information, but then identified that the same information could be readily pulled using a simple urllib request.
 This .csv data can then be manipulated by Python package's such as `Pandas` - a powerful Python data analysis toolkit and
 allow us to display the Average price paid for property in that area, the number of sales,
 how the average price paid rates against the national average and possible value change ( Is the area on the up ? )
