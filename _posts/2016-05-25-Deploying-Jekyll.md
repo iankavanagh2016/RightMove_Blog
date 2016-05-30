@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Deploying Jekyll"
+title:  "Deploying our blog"
 date:   2016-05-25
 tags:  [jekyll, deployment, github pages, git]
 ---
-Once we finished building our Jekyll site we needed to decide where and how we wanted to deploy it.
- Because Jekyll is so tightly integrated with GitHub Pages, it was a natural starting point for deploying this blog.
-We deployed our blog through GitHub Pages - The Jekyll documentation has a specific section on [deployment methods](http://jekyllrb.com/docs/deployment-methods/ "deployment methods")
+Once we finished building our Jekyll blog site, we needed to decide where and how we wanted to deploy it.
+Because Jekyll is so tightly integrated with GitHub Pages, it was a natural starting point for deploying this blog.
+We deployed our blog through GitHub Pages - the Jekyll documentation has a specific section specifically on [deployment methods](http://jekyllrb.com/docs/deployment-methods/ "deployment methods")
 
-Ensure you have git installed locally - choose one of the many [Git GUI Client's](https://git-scm.com/downloads/guis).
+Ensure you have git installed locally - choose one of the many [Git gui client's](https://git-scm.com/downloads/guis).
 The first time, you will need to do the following at the command line prompt, using your github details.
 
 {% highlight bash %}
@@ -16,9 +16,10 @@ C:\blog>git config –global user.name “Your Name
 C:\blog>git config –global user.email “Your email address”
 {% endhighlight %}
 
-Sign into [github](https://github.com/) using your details and create a 'New repository'. Stick with the defaults as this blog will be built locally.
+Sign into [github](https://github.com/) using your details and create a ``'New repository'`.
+Stick with the defaults as this blog will be built locally.
 Once you've established a project repository for your Jekyll site, you'll need to connect your local development directory to it,
-and once they are connected, we can deploy your site to GitHub and start blogging.
+and once these are connected, we can deploy your site to GitHub and start blogging.
 Back on the command prompt navigate to the directory that contains the blog. Type
 
 {% highlight bash %}
@@ -74,31 +75,26 @@ Click on Setting and it will give a check-mark if the site is published and an u
 Although our Jekyll site is currently live and online, you're still going to want to develop and test locally before you push your content up.
 Since we've modified our base URL however, this can be a little bit of a problem.
 If we want to continue developing locally, and make sure that we can preview the blog locally before we push the content online,
-we need to start the local web-server as follows.
+we need to start the local web-server as follows. This command only makes the change locally, it doesn't update any hosted content.
 
 {% highlight bash %}
 C:\jekyll serve --baseurl ''
 {% endhighlight %}
 
-This command only makes the change locally, it doesn't update any hosted content.
-
-{% highlight bash %}
-C:\git status
-{% endhighlight %}
-
 This will indicate any new files that have changed since the last commit.
 
 {% highlight bash %}
-C:\git add -A
+C:\blog>git status
 {% endhighlight %}
 
-Add all un-tracked files.
+Add all un-tracked files, commit and push to the remote repository.
 
 {% highlight bash %}
-C:\git commit -a -m "add a comment indicating what files are to be changed"
+C:\blog>git add -A
+C:\blog>git commit -a -m "add a comment indicating what files are to be changed"
 {% endhighlight %}
 
 
 {% highlight bash %}
-C:\git push github_pages gh-pages
+C:\blog>git push github_pages gh-pages
 {% endhighlight %}
