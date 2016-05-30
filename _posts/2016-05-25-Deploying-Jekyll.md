@@ -53,14 +53,14 @@ The website and the application don't need to be tracked together. We have switc
 C:\blog>git checkout --orphan gh-pages
 {% endhighlight %}
 
-Now we add everything , stage everything to be committed and commit.
+Now we add / stage all files to be committed and then commit.
 
 {% highlight bash %}
 C:\blog>git add -A
 C:\blog>git commit -a -m "Initial commit"
 {% endhighlight %}
 
-All that was left to do was push the blog up to the remote repository from the local repository and let github build the blog
+All that was left to do was push the blog up to the remote repository from the local repository and let github build the blog.
 
 {% highlight bash %}
 C:\blog> git push github_pages gh-pages
