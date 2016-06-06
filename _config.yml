@@ -2,8 +2,8 @@
 title: COMP47250 - Right Move
 description: "Companion blog to the COMP47250 Team software project. This site is designed to present the steps used to
 create the 'Right Move' application in a clear, concise way. All resource's and reference's used to develop the application will also be recorded."
-baseurl: "/RightMove"
-url: "http://ucd-nlmsc-teamproject.github.io/RightMove/"
+baseurl: "/RightMove_Blog"
+url: "http://iankavanagh2016.github.io/RightMove_Blog/"
 tagline: A blog describing the development of the 'Right Move' Application.
 
 # Build settings
