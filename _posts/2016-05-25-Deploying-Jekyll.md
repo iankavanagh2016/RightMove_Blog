@@ -42,6 +42,14 @@ C:\blog>git remote -v
 We created a project page subdirectory, rather than an organisation page,  so we had to update the baseurl in our `_config.yml` file to represent this.
 This will also us to resolve the site url.
 
+As this blog uses pagination, you may get an error like
+`you appear to have pagination turned on, but you haven't included the jekyll-paginate gem. Ensure you have gems: [jekyll-paginate] in your configuration file.`, when attempting to launch the website.
+This can be resolved by running the following at the command prompt.
+
+{% highlight bash %}
+C:\blog>gem install jekyll-paginate
+{% endhighlight %}
+
 
 # Uploading the  blog
 
